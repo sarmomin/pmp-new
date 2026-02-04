@@ -27,6 +27,9 @@
     .composez-pizza-image-area {
         margin: 100px 0;
     }
+    .croque-area {
+        margin-top: 270px;
+    }
     
 }
 /* Wide Mobile Layout: 480px. */
@@ -59,3 +62,4 @@
     }
 
 }
+
