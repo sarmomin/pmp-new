@@ -1,0 +1,48 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-area {
+        text-align: center;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    
+    .hero-area {
+        text-align: center;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .hero-area {
+        text-align: center;
+    }
+    .gratins-area {
+        margin-top: 200px;
+    }
+    .speciales-area {
+        margin-top: 200px;
+    }
+    .uber-area {
+        text-align: center;
+        padding: 50px 15px;
+    }
+    .panini-area {
+        margin-top: 200px;
+    }
+    .composez-pizza-image-area {
+        margin: 100px 0;
+    }
+    .qr-area img {
+        padding: 10px;
+        max-width: 150px;
+    }
+    .croque-area {
+        margin-top: 270px;
+    }
+}

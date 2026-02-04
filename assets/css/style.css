@@ -1,0 +1,539 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Yeseva One', cursive;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+    font-family: 'Gentium Book Basic', serif;
+    color: #4c4c4c;
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 135px 0;
+}
+
+.pmp-main-navbar {
+	background: #000000;
+}
+
+.pmp-main-navbar img {
+	max-width: 80px;
+	height: auto;
+	margin-left: 30px;
+}
+
+h1.heroh1 {
+	font-size: 85px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+h2.heroh2 {
+	font-size: 70px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+img.hero-halal-img {
+	vertical-align: middle;
+	max-width: 60%;
+}
+
+.hero-area {
+	background: #000000 url("../images/hero-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 0;
+
+}
+
+.hero-area::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+
+.ouvert-area {
+    background-color: #000000;
+    height: 265px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 40px 0;
+    width: 265px;
+    color: #ffffff;
+    line-height: 1;
+    margin-top: 45px;
+}
+
+p.ouvert-p {
+	margin-bottom: 7px;
+}
+
+.cards-area-product-images {
+    margin-top: 40px;
+    text-align: center;
+}
+
+img.cards-area-product-image {
+    margin: 40px 10px;
+}
+
+img.visa-card-img {
+    max-width: 110px;
+    display: inline-grid;
+    padding: 5px;
+}
+
+.cards-area {
+	background: #000000 url("../images/top-area-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+.cards-area::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(255, 0, 0, 0.3);
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+
+.visa-cards {
+    margin: 110px 0;
+    text-align: center;
+}
+
+.address-area {
+	text-align: center;
+}
+
+.uber-area {
+	margin-top: 20px;
+}
+
+h4.uber-h4, h1.uber-h1 {
+	margin-left: 80px;
+	margin-bottom: 5px;
+}
+
+img.address-img-fb {
+	max-width: 50px;
+	padding-top: 90px;
+}
+
+.deliveroo-area {
+	background: #000000 url("../images/contact-area-bg.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+	color: #ffffff;
+}
+
+.deliveroo-area::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+
+h2.address-h2 {
+	font-size: 40px;
+}
+
+.product-area {
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+.product-title {
+	border: 2px dotted red;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.speciales-title {
+	padding-bottom: 0;
+}
+
+.section-title-img {
+	margin-top: -110px;
+}
+
+h3.section-title-h3 {
+	margin-bottom: 25px;
+	display: inline-block;
+	padding-right: 15px;
+	color: red;
+}
+
+span.section-price {
+	color: #ffffff;
+	background-color: #000000;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+span.red-text {
+	color: red;
+	font-weight: bold;
+}
+
+.product-list {
+	border: 2px solid red;
+	padding: 35px;
+	font-size: 18px;
+	position: relative;
+	z-index: 1;
+}
+
+.panizzas-product-list {
+	min-height: 677px;
+}
+
+.panini-product-list {
+	min-height: 445px;
+}
+
+p.base-tomate-title-p {
+	font-size: 30px;
+	font-style: oblique;
+	margin: 0;
+}
+
+ul.sauce-tomate-ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li.sauce-tomate-li {
+	display: inline-block;
+	padding: 10px;
+}
+
+img.sauce-tomate-pizza-slice {
+	max-width: 160px;
+}
+
+img.offer-img {
+	max-width: 150px;
+	padding: 0 10px;
+}
+
+.lasagnes-area, .croque-area {
+	margin-top: 150px;
+}
+
+.product-image-top {
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+}
+
+.product-top-img {
+	padding: 25px;
+	max-width: 50%;
+}
+
+img.product-image-bottom {
+	max-width: 80%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.product-image-bottom {
+	border: 1px solid red;
+	text-align: center;
+	padding: 25px;
+}
+
+h1.boisson-title-h1 {
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 60px;
+    color: #ffffff;
+}
+
+.boisson-area {
+	background-image: url("../images/burger-section-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+}
+
+.boisson-area::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+
+h1.product-carousel-h1 {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin-bottom: 60px;
+}
+
+h3.carousel-h3 {
+    margin-top: 30px;
+}
+
+h4.carousel-h4 {
+    font-weight: 400;
+}
+
+.title-area {
+    text-align: center;
+}
+
+.image-area {
+    text-align: center;
+    padding: 5px;
+}
+
+img.caousel-product-img {
+    max-width: 80%;
+}
+
+
+.product-carousel-area {
+    background: #FD1D1D;
+background: -webkit-linear-gradient(226deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 27%, rgba(252, 133, 57, 1) 69%, rgba(253, 29, 29, 1) 99%);
+background: -o-linear-gradient(226deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 27%, rgba(252, 133, 57, 1) 69%, rgba(253, 29, 29, 1) 99%);
+background: linear-gradient(316deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 27%, rgba(252, 133, 57, 1) 69%, rgba(253, 29, 29, 1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient(
+  startColorstr="#FD1D1D",
+  endColorstr="#FD1D1D",
+  GradientType=0
+);
+}
+
+.single-carousel-content {
+    border: 1px solid red;
+    border-radius: 50px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+}
+
+.price-tag-area {
+    position: relative;
+}
+
+span.price-down {
+    display: block;
+}
+
+span.left-price-tag {
+    background-color: #000000;
+    padding: 16px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border-bottom-left-radius: 50px;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+span.right-price-tag {
+    background-color: #000000;
+    padding: 16px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border-bottom-right-radius: 50px;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.composez-votre-pizza-area {
+    background: #FD1D1D;
+background: -webkit-linear-gradient(226deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 27%, rgba(252, 133, 57, 1) 69%, rgba(253, 29, 29, 1) 99%);
+background: -o-linear-gradient(226deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 27%, rgba(252, 133, 57, 1) 69%, rgba(253, 29, 29, 1) 99%);
+background: linear-gradient(316deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 27%, rgba(252, 133, 57, 1) 69%, rgba(253, 29, 29, 1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient(
+  startColorstr="#FD1D1D",
+  endColorstr="#FD1D1D",
+  GradientType=0
+);
+}
+
+.composez-votre-pizza-content {
+    color: #ffffff;
+}
+
+.composez-votre-pizza-title-area {
+    text-align: center;
+}
+
+img.composez-votre-pizza-title-img {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    max-width: 80%;
+}
+
+.composez-votre-pizza-slice-area {
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+ul.composez-votre-pizza-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.composez-votre-pizza {
+    padding: 15px;
+    margin: 0;
+    display: inline-block;
+}
+
+img.composez-votre-pizza-slice {
+    max-width: 150px;
+}
+
+.composez-3-viandes-area {
+    text-align: center;
+}
+
+.les-legumes-area {
+    text-align: center;
+}
+
+.circle-span-area {
+    margin-bottom: 20px;
+}
+
+.single-circle-span {
+    background-color: #ffffff;
+    min-height: 100px;
+    min-width: 100px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+h6.circle-span-h6 {
+    margin-bottom: 5px;
+    margin-top: 14px;
+}
+
+p.circle-span-p {
+    margin-bottom: 5px;
+}
+
+h4.composez-3-viandes-h4 {
+    color: red;
+}
+
+h4.les-legumes-h4 {
+    color: red;
+}
+
+.qr-area {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.qr-area img {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px;
+    max-width: 100px;
+}
+
+.tex-mex-tenders-title {
+    margin-bottom: 50px;
+}
+
+/** Footer-Bottom-Area-Starts-here **/
+/** Footer-Bottom-Area-Starts-here **/
+.footer-bottom-area {
+    margin: 0;
+	padding: 20px 0;
+    background: #1b1b1b;
+}
+.footer-bottom-content {
+	color: #6c6c6c;
+    padding-top: 10px;
+}
+img.footer-logo-area {
+	max-width: 100px !important;
+	height: auto;
+	float: left;
+	padding: 10px;
+	transition: .4s;
+}
+img.footer-logo-area:hover {
+	transform: translateX(-5px);
+}
+.footer-bottom-content p {
+	line-height: 17px;
+}
+.copyright-span, .creators-link {
+	color: #dfdfdf;
+	font-weight: 700;
+    transition: .4s;
+}
+.copyright-span:hover, .creators-link:hover {
+    transform: matrix3d(1.1);
+}
+/** Footer-Bottom-Area-Ends-here **/
+/** Footer-Bottom-Area-Ends-here **/
