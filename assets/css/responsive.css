@@ -15,6 +15,18 @@
     .hero-area {
         text-align: center;
     }
+    .gratins-area {
+        margin-top: 200px;
+    }
+    .speciales-area {
+        margin-top: 200px;
+    }
+    .panini-area {
+        margin-top: 200px;
+    }
+    .composez-pizza-image-area {
+        margin: 100px 0;
+    }
     
 }
 /* Wide Mobile Layout: 480px. */
@@ -45,4 +57,5 @@
     .croque-area {
         margin-top: 270px;
     }
+
 }
