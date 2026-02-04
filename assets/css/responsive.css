@@ -30,6 +30,12 @@
     .croque-area {
         margin-top: 270px;
     }
+    h1.boisson-title-h1 {
+        font-size: 75px;
+    }
+    h1.product-carousel-h1 {
+        font-size: 75px;
+    }
     
 }
 /* Wide Mobile Layout: 480px. */
@@ -60,6 +66,13 @@
     .croque-area {
         margin-top: 270px;
     }
+    h1.boisson-title-h1 {
+        font-size: 75px;
+    }
+    h1.product-carousel-h1 {
+        font-size: 75px;
+    }
 
 }
+
 
