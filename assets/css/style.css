@@ -243,13 +243,14 @@ img.product-img {
 }
 
 .sauce-tomate-area {
-	background: #000000 url("../images/Base-Tomate-BG.png");
+	background: #000000 url("../images/sauce-tomate-bg.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
 	z-index: 1;
 	color: #ffffff;
+    margin: 0;
 }
 
 .sauce-tomate-area::before {
@@ -257,7 +258,7 @@ img.product-img {
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.8);
 	z-index: -1;
 	height: 100%;
 	width: 100%;
