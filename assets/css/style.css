@@ -73,7 +73,6 @@ img.hero-halal-img {
 	background-position: center;
 	position: relative;
 	z-index: 0;
-
 }
 
 .hero-area::before {
@@ -231,12 +230,37 @@ span.red-text {
 	z-index: 1;
 }
 
+img.product-img {
+    margin-top: 35px;
+}
+
 .panizzas-product-list {
 	min-height: 677px;
 }
 
 .panini-product-list {
 	min-height: 445px;
+}
+
+.sauce-tomate-area {
+	background: #000000 url("../images/Base-Tomate-BG.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+	color: #ffffff;
+}
+
+.sauce-tomate-area::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+	height: 100%;
+	width: 100%;
 }
 
 p.base-tomate-title-p {
@@ -460,12 +484,12 @@ img.composez-votre-pizza-slice {
 
 .single-circle-span {
     background-color: #ffffff;
-    min-height: 100px;
-    min-width: 100px;
-    margin: 0 10px;
+    min-height: 82px;
+    min-width: 82px;
+    margin: 0 5px;
     display: inline-block;
     border-radius: 50%;
-    padding: 15px;
+    padding: 7px;
     color: #000000;
     text-align: center;
 }
@@ -481,10 +505,12 @@ p.circle-span-p {
 
 h4.composez-3-viandes-h4 {
     color: red;
+    text-transform: uppercase;
 }
 
 h4.les-legumes-h4 {
     color: red;
+    text-transform: uppercase;
 }
 
 .qr-area {
