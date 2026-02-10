@@ -9,6 +9,8 @@
         
         <link href="https://fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700,700i|Gentium+Book+Basic:400,400i,700,700i|Yeseva+One" rel="stylesheet">
         
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
         <link href="assets/css/owl.carousel.css" rel="stylesheet">
@@ -19,7 +21,7 @@
     <body>
         <!--Main Navbar Area Starts Here-->
         <!--Main Navbar Area Starts Here-->
-        <div class="pmp-main-navbar">
+        <div class="main-navbar-wrapper">
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -29,27 +31,35 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        <a class="nav-link active" aria-current="page" href="#hero-area">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Order Now</a>
+                                        <a class="nav-link" href="#deliveroo">Order Now</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu Items</a>
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pizza Menu</a>
                                         <ul class="dropdown-menu my-ul">
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#sauce-tomate">Sauce Tomate</a></li>
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#speciales">Speciales</a></li>
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#base-creme-fraiche">Creme fraiche</a></li>
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#composez-votre-pizza">Composez Votre</a></li>
+                                            <li class="my-li"><hr class="dropdown-divider"></li>
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#boissons-wrapper">Boissons</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other Menu</a>
+                                        <ul class="dropdown-menu my-ul">
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Lasagnes</a></li>
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Croque</a></li>
                                             <li class="my-li"><a class="dropdown-item my-anchor" href="#">Panizzas</a></li>
                                             <li class="my-li"><a class="dropdown-item my-anchor" href="#">Gratins</a></li>
-                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Creme fraiche</a></li>
-                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Speciales</a></li>
-                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Sauce Tomate</a></li>
-                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Gratins</a></li>
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Pates</a></li>
                                             <li class="my-li"><a class="dropdown-item my-anchor" href="#">Panini</a></li>
-                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Gratins</a></li>
-                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Gratins</a></li>
-                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Gratins</a></li>
-                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Gratins</a></li>
                                             <li class="my-li"><hr class="dropdown-divider"></li>
-                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#">Burgers</a></li>
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#tex-mex-tenders">Tex Mex &amp; Tenders</a></li>
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#boissons-wrapper">Boissons</a></li>
+                                            <li class="my-li"><a class="dropdown-item my-anchor" href="#burger-wrapper">Burgers</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -72,7 +82,7 @@
 
         <!--Hero Area Starts Here-->
         <!--Hero Area Starts Here-->
-        <div id="heroarea" class="hero-area section-padding">
+        <div id="hero-area" class="hero-area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 offset-md-1">
@@ -93,72 +103,95 @@
         <!--Hero Area Ends Here-->
         
         
-        <!-- Double Product --> <!-- Base Creme Fraiche ST-->
-        <!-- Double Product --> <!-- Speciales ST-->
-        <div id="double-product-area" class="product-area section-padding">
+        <!-- Base Creme Fraiche ST -->
+        <!-- Base Creme Fraiche ST -->
+        <div id="base-creme-fraiche" class="product-area base-creme-fraiche-area section-padding">
             <div class="container">
                 <div class="row">
+                    <div class="col-md-12">
+                        <div class="base-creme-fraiche-title product-title">
+                            <img src="assets/images/PMP-Title-Base-Creme-Fraiche.png" alt="" class="section-title-img base-creme-fraiche-img">
+                            <p class="base-creme-fraiche-title-p">Faites vibrar vos papilles</p>
+                            <h3 class="section-title-h3">Menu <span class="section-price">8&euro;00</span></h3>
+                            <img src="assets/images/pizza-product-image-product-base-creme-fraiche.png" alt="" class="product-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-md-6">
-                        <div class="base-creme-fraiche-area">
-                            <div class="base-creme-fraiche-title product-title">
-                                <img src="assets/images/PMP-Title-Base-Creme-Fraiche.png" alt="" class="section-title-img base-creme-fraiche-img">
-                                <p class="base-creme-fraiche-title-p">Faites vibrar vos papilles</p>
-                                <h3 class="section-title-h3">Menu <span class="section-price">8&euro;00</span></h3>
-                                <img src="assets/images/pizza-product-image-product-base-creme-fraiche.png" alt="" class="product-img">
-                            </div>
-                            <div class="base-creme-fraiche-product-list product-list">
-                                <p><span class="red-text">Chèvre:</span> Crème fraîche, fromage, chèvre, parmesan, miel</p>
-                                <p><span class="red-text">Paysanne: </span> Crème fraîche, fromage, jambon, pomme de terre, oignons</p>
-                                <p><span class="red-text">Parisienne: </span> Crème fraîche, fromage, viande hachée, champignons, pomme de terre</p>
-                                <p><span class="red-text">Cannibale: </span> Crème fraîche, fromage, viande de kebab, pomme de terre, jambon de dinde, œuf</p>
-                                <p><span class="red-text">Meat Love: </span> Crème fraîche, fromage, poulet fumé, escalope, viande hachée, poivrons, œuf</p>
-                                <p><span class="red-text">Milano: </span> Crème fraîche, fromage, lardons, pomme de terre, œuf</p>
-                                <p><span class="red-text">Norvégienne: </span> Crème fraîche, fromage, saumon fumé, citron</p>
-                                <p><span class="red-text">Rimini: </span> Crème fraîche, fromage, viande hachée, oignons, chèvre</p>
-                                <p><span class="red-text">Kebab: </span> Crème fraîche, fromage, kebab, pomme de terre, champignons</p>
-                                <p><span class="red-text">Tartiflette: </span> Crème fraîche, fromage, lardons, parmesan, oignons </p>
-                                <p><span class="red-text">Boursin: </span> Crème fraîche, fromage, boursin, escalope, champignons</p>
-                                <p><span class="red-text">Océane: </span> Crème fraîche, saumon, crevettes</p>
-                                <p><span class="red-text">Ca Française: </span> Crème fraîche, fromage, jambon, lardons, champignons</p>
-                                <p><span class="red-text">Chicken: </span> Crème fraîche, fromage, poulet fumé, pomme de terre</p>
-                                <p><span class="red-text">3 Chicken: </span> Crème fraîche, fromage, poulet fumé, escalope, kebab</p>
-                            </div>
+                        <div class="base-creme-fraiche-product-list product-list">
+                            <p><span class="red-text">Chèvre:</span> Crème fraîche, fromage, chèvre, parmesan, miel</p>
+                            <p><span class="red-text">Paysanne: </span> Crème fraîche, fromage, jambon, pomme de terre, oignons</p>
+                            <p><span class="red-text">Parisienne: </span> Crème fraîche, fromage, viande hachée, champignons, pomme de terre</p>
+                            <p><span class="red-text">Cannibale: </span> Crème fraîche, fromage, viande de kebab, pomme de terre, jambon de dinde, œuf</p>
+                            <p><span class="red-text">Meat Love: </span> Crème fraîche, fromage, poulet fumé, escalope, viande hachée, poivrons, œuf</p>
+                            <p><span class="red-text">Milano: </span> Crème fraîche, fromage, lardons, pomme de terre, œuf</p>
+                            <p><span class="red-text">Norvégienne: </span> Crème fraîche, fromage, saumon fumé, citron</p>
+                            <p><span class="red-text">Rimini: </span> Crème fraîche, fromage, viande hachée, oignons, chèvre</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="speciales-area">
-                            <div class="speciales-title product-title">
-                                <img src="assets/images/PMP-Title-Speciales.png" alt="" class="section-title-img speciales-img">
-                                <p class="speciales-title-p">Faites vibrar vos papilles</p>
-                                <h3 class="section-title-h3">Menu <span class="section-price">8&euro;00</span></h3>
-                                <img src="./assets/images/pizza-product-image-pizza-speciales-2.png" alt="" class="product-img">
-                            </div>
-                            <div class="speciales-product-list product-list">
-                                <p><span class="red-text">Spéciale: </span> Sauce bolognaise, fromage, blanc de poulet, champignons</p>
-                                <p><span class="red-text">Cap Bon: </span> Sauce tomate, harissa, fromage, thon, fruits de mer, poivrons, oignons</p>
-                                <p><span class="red-text">Buffalo: </span> Sauce barbecue, fromage, viande hachée, poivrons, oignons</p>
-                                <p><span class="red-text">Algérienne: </span> Sauce algérienne, fromage, escalope, chèvre, oignons</p>
-                                <p><span class="red-text">Andalouse: </span> Sauce barbecue, fromage, merguez, viande hachée, œuf</p>
-                                <p><span class="red-text">Dhaka: </span>Sauce curry, fromage, merguez, escalope, oignons, poivrons</p>
-                                <p><span class="red-text">Pimento: </span> Sauce algérienne, fromage, chorizo, escalope, poivrons, oignons</p>
-                                <p><span class="red-text">Miami: </span> Sauce barbecue, fromage, viande hachée, merguez, escalope</p>
-                                <p><span class="red-text">La Marocaine: </span> Sauce marocaine, fromage, viande hachée, chorizo, cordon bleu</p>
-                                <p><span class="red-text">Western: </span> Sauce barbecue, fromage, escalope, cordon bleu, poivrons</p>
-                                <p><span class="red-text">Indiana: </span> Sauce curry, fromage, escalope, oignons, poivrons </p>
-                                <p><span class="red-text">Bollywood: </span> Sauce curry, fromage, escalope, viande de kebab, poivrons</p>
-                            </div>
+                        <div class="base-creme-fraiche-product-list product-list">
+                            <p><span class="red-text">Kebab: </span> Crème fraîche, fromage, kebab, pomme de terre, champignons</p>
+                            <p><span class="red-text">Tartiflette: </span> Crème fraîche, fromage, lardons, parmesan, oignons </p>
+                            <p><span class="red-text">Boursin: </span> Crème fraîche, fromage, boursin, escalope, champignons</p>
+                            <p><span class="red-text">Océane: </span> Crème fraîche, saumon, crevettes</p>
+                            <p><span class="red-text">Ca Française: </span> Crème fraîche, fromage, jambon, lardons, champignons</p>
+                            <p><span class="red-text">Chicken: </span> Crème fraîche, fromage, poulet fumé, pomme de terre</p>
+                            <p><span class="red-text">3 Chicken: </span> Crème fraîche, fromage, poulet fumé, escalope, kebab</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Single Product --> <!-- Base Creme Fraiche END-->
-        <!-- Single Product --> <!-- Speciales END-->
+        <!-- Base Creme Fraiche END-->
+        <!-- Base Creme Fraiche END-->
+        
+        <!-- Speciales ST-->
+        <!-- Speciales ST-->
+        <div id="speciales-wrapper" class="speciales-content speciales-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="speciales-title product-title">
+                            <img src="assets/images/PMP-Title-Speciales.png" alt="" class="section-title-img speciales-img">
+                            <p class="speciales-title-p">Faites vibrar vos papilles</p>
+                            <h3 class="section-title-h3">Menu <span class="section-price">8&euro;00</span></h3>
+                            <img src="./assets/images/pizza-product-image-pizza-speciales-2.png" alt="" class="product-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="speciales-product-list product-list">
+                            <p><span class="red-text">Spéciale: </span> Sauce bolognaise, fromage, blanc de poulet, champignons</p>
+                            <p><span class="red-text">Cap Bon: </span> Sauce tomate, harissa, fromage, thon, fruits de mer, poivrons, oignons</p>
+                            <p><span class="red-text">Buffalo: </span> Sauce barbecue, fromage, viande hachée, poivrons, oignons</p>
+                            <p><span class="red-text">Algérienne: </span> Sauce algérienne, fromage, escalope, chèvre, oignons</p>
+                            <p><span class="red-text">Andalouse: </span> Sauce barbecue, fromage, merguez, viande hachée, œuf</p>
+                            <p><span class="red-text">Dhaka: </span>Sauce curry, fromage, merguez, escalope, oignons, poivrons</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="speciales-product-list product-list">
+                            <p><span class="red-text">Pimento: </span> Sauce algérienne, fromage, chorizo, escalope, poivrons, oignons</p>
+                            <p><span class="red-text">Miami: </span> Sauce barbecue, fromage, viande hachée, merguez, escalope</p>
+                            <p><span class="red-text">La Marocaine: </span> Sauce marocaine, fromage, viande hachée, chorizo, cordon bleu</p>
+                            <p><span class="red-text">Western: </span> Sauce barbecue, fromage, escalope, cordon bleu, poivrons</p>
+                            <p><span class="red-text">Indiana: </span> Sauce curry, fromage, escalope, oignons, poivrons </p>
+                            <p><span class="red-text">Bollywood: </span> Sauce curry, fromage, escalope, viande de kebab, poivrons</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Speciales END-->
+        <!-- Speciales END-->
         
         
         <!-- Composez Votre Pizza Area Starts Here-->
         <!-- Composez Votre Pizza Area Starts Here-->
-        <div class="composez-votre-pizza-area section-padding">
+        <div id="composez-votre-pizza" class="composez-votre-pizza-area section-padding">
             <div class="composez-votre-pizza-content">
                 <div class="container">
                     <div class="row">
@@ -239,19 +272,68 @@
         
         <!-- Single Product --> <!-- Base Tomate ST-->
         <!-- Single Product --> <!-- Base Tomate ST-->
-        <div id="sauce-tomate-wrapper" class="sauce-tomate-area single-product-area product-area section-padding">
+        <div id="sauce-tomate" class="sauce-tomate-area single-product-area product-area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 offset-md-1">
                         <div class="product-area-base-tomate">
                             <div class="base-tomate-title product-title">
-                                <img src="assets/images/PMP-Title-Base-Tomate.png" alt="" class="section-title-img base-tomate-img">
-                                <p class="base-tomate-title-p">Nos Pizzas</p>
-                                <ul class="sauce-tomate-ul">
-                                    <li class="sauce-tomate-li"><img src="./assets/images/Pizza-Slice-Junior.png" alt="" class="sauce-tomate-pizza-slice"></li>
-                                    <li class="sauce-tomate-li"><img src="./assets/images/Pizza-Slice-Senior.png" alt="" class="sauce-tomate-pizza-slice"></li>
-                                    <li class="sauce-tomate-li"><img src="./assets/images/Pizza-Slice-Mega.png" alt="" class="sauce-tomate-pizza-slice"></li>
-                                </ul>
+                                <!-- Section-Title-Area-Starts-Here -->
+                                <!-- Section-Title-Area-Starts-Here -->
+                                <div class="section-title-wrapper">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="section-title-content">
+                                                    <h1 class="section-title-h1">Sauce Tomate</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Section-Title-Area-Ends-Here -->
+                                <!-- Section-Title-Area-Ends-Here -->
+
+                                <!-- Pricing-Tag-Area-Starts-Here -->
+                                <!-- Pricing-Tag-Area-Starts-Here -->
+                                <div class="pricing-tag-wrapper">
+                                    <div class="container">
+                                        <div class="row">
+                                            <!-- Pricing-Tag-Col-01 -->
+                                            <div class="col-md-4">
+                                                <div class="pricing-tag-3-col">
+                                                    <img src="./assets/images/Pizza-Slice-Junior.png" alt="" class="price-icon-img">
+                                                    <h4 class="pricing-h4">26 CM</h4>
+                                                    <p class="pricing-p">Junior</p>
+                                                    <h5 class="pricing-h5"><span class="price-itself">5&euro;00</span></h5>
+                                                </div>
+                                            </div>
+                                            <!-- Pricing-Tag-Col-01 -->
+                                            <!-- Pricing-Tag-Col-02 -->
+                                            <div class="col-md-4">
+                                                <div class="pricing-tag-3-col">
+                                                    <img src="./assets/images/Pizza-Slice-Senior.png" alt="" class="price-icon-img">
+                                                    <h4 class="pricing-h4">31 CM</h4>
+                                                    <p class="pricing-p">Senior</p>
+                                                    <h5 class="pricing-h5"><span class="price-itself">7&euro;00</span></h5>
+                                                </div>
+                                            </div>
+                                            <!-- Pricing-Tag-Col-02 -->
+                                            <!-- Pricing-Tag-Col-03 -->
+                                            <div class="col-md-4">
+                                                <div class="pricing-tag-3-col">
+                                                    <img src="./assets/images/Pizza-Slice-Mega.png" alt="" class="price-icon-img">
+                                                    <h4 class="pricing-h4">40 CM</h4>
+                                                    <p class="pricing-p">Mega</p>
+                                                    <h5 class="pricing-h5"><span class="price-itself">12&euro;50</span></h5>
+                                                </div>
+                                            </div>
+                                            <!-- Pricing-Tag-Col-03 -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Pricing-Tag-Area-Ends-Here -->
+                                <!-- Pricing-Tag-Area-Ends-Here -->
                                 <div class="product-image-main">
                                     <img src="./assets/images/pizza-product-image-pizza-base-tomate.png" alt="" class="product-img-main">
                                 </div>
@@ -295,7 +377,7 @@
         
         <!-- Product Carousel Burger Area Starts Here -->
         <!-- Product Carousel Burger Area Starts Here -->
-        <div class="product-carousel-area section-padding">
+        <div id="burger-wrapper" class="product-carousel-area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -385,7 +467,7 @@
         
         <!--Boisson Area Starts Here-->
         <!--Boisson Area Starts Here-->
-        <div class="boisson-area section-padding">
+        <div id="boissons-wrapper" class="boisson-area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -456,7 +538,7 @@
 
         <!--Lasagne and Croque Area Starts Here-->
         <!--Lasagne and Croque Area Starts Here-->
-        <div class="double-product-area section-padding lasagne-croque-area">
+        <div id="lasagnes-croque" class="double-product-area section-padding lasagne-croque-area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -492,7 +574,7 @@
         
         <!-- Product Carousel Tex Mex Tenders Starts Here -->
         <!-- Product Carousel Tex Mex Tenders Starts Here -->
-        <div class="product-carousel-area section-padding">
+        <div id="tex-mex-tenders" class="product-carousel-area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -617,7 +699,7 @@
         
         <!-- Double Product --> <!-- panizzas ST-->
         <!-- Double Product --> <!-- Gratins ST-->
-        <div id="double-product-area panizzas-gratins" class="product-area section-padding">
+        <div id="panizzas-gratins" class="product-area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -673,7 +755,7 @@
 
         <!--Ouvert Image Cards Area Starts Here-->
         <!--Ouvert Image Cards Area Starts Here-->
-        <div id="cardsarea" class="cards-area section-padding">
+        <div id="ouvert-cards" class="cards-area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-12">
@@ -708,7 +790,7 @@
         
         <!-- Double Product --> <!-- Pates ST-->
         <!-- Double Product --> <!-- Panini ST-->
-        <div id="product-area-double pates-panini" class="product-area section-padding">
+        <div id="pates-panini" class="product-area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -801,7 +883,7 @@
                         <div class="col-md-12 text-center">
                             <!-- Footer-Copyright-Area-Starts-here -->
                             <div class="footer-copyright-area">
-                                <p>Copyright &copy; <span class="copyright-span">Pizza Center Milano</span>.com | 2018-2026</p>
+                                <p>Copyright &copy; <span class="copyright-span">Pizza Milano Pantin</span>.com | 2018-2026</p>
                             </div>
                             <!-- Footer-Copyright-Area-Ends-here -->
                             
@@ -828,6 +910,8 @@
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script type="text/javascript" src="assets/js/gmaps.min.js"></script>
         <script type="text/javascript" src="assets/js/main.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
    
     </body>
 </html>
