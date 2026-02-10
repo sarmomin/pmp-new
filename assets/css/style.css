@@ -44,7 +44,7 @@ a:hover { text-decoration: none }
 	background: #000000;
 }
 
-.pmp-main-navbar img {
+.main-navbar-wrapper img {
 	max-width: 80px;
 	height: auto;
 	margin-left: 30px;
@@ -347,7 +347,7 @@ h1.product-carousel-h1 {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 100px;
+    font-size: 90px;
     margin-bottom: 60px;
 }
 
@@ -425,15 +425,25 @@ span.right-price-tag {
 }
 
 .composez-votre-pizza-area {
-    background: #FD1D1D;
-background: -webkit-linear-gradient(226deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 27%, rgba(252, 133, 57, 1) 69%, rgba(253, 29, 29, 1) 99%);
-background: -o-linear-gradient(226deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 27%, rgba(252, 133, 57, 1) 69%, rgba(253, 29, 29, 1) 99%);
-background: linear-gradient(316deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 27%, rgba(252, 133, 57, 1) 69%, rgba(253, 29, 29, 1) 99%);
-filter: progid:DXImageTransform.Microsoft.gradient(
-  startColorstr="#FD1D1D",
-  endColorstr="#FD1D1D",
-  GradientType=0
-);
+	background: #000000 url("../images/composez-votre-pizza-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+	color: #ffffff;
+    margin: 0;
+}
+
+.composez-votre-pizza-area::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: -1;
+	height: 100%;
+	width: 100%;
 }
 
 .composez-votre-pizza-content {
@@ -534,6 +544,52 @@ h4.les-legumes-h4 {
     font-size: 16px;
     font-weight: 100;
 }
+
+/*** Section-Title-Wrapper ***/
+/*** Section-Title-Wrapper ***/
+.section-title-content {
+    text-align: center;
+}
+
+h1.section-title-h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 90px;
+}
+/*** Section-Title-Wrapper ***/
+/*** Section-Title-Wrapper ***/
+
+/*** Product-pricing-tag-3-col ***/
+/*** Product-pricing-tag-3-col ***/
+.pricing-tag-3-col {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h4.pricing-h4 {
+    color: red;
+    margin: 0;
+    font-size: 30px;
+}
+
+p.pricing-p {
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+span.price-itself {
+    background-color: red;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 35px;
+}
+
+img.price-icon-img {
+    max-width: 50px;
+    margin-bottom: 5px;
+}
+/*** Product-pricing-tag-3-col ***/
+/*** Product-pricing-tag-3-col ***/
 
 /** Footer-Bottom-Area-Starts-here **/
 /** Footer-Bottom-Area-Starts-here **/
