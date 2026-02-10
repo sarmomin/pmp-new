@@ -40,7 +40,7 @@ a:hover { text-decoration: none }
     padding: 135px 0;
 }
 
-.pmp-main-navbar {
+.main-navbar-wrapper {
 	background: #000000;
 }
 
@@ -625,3 +625,4 @@ img.footer-logo-area:hover {
 }
 /** Footer-Bottom-Area-Ends-here **/
 /** Footer-Bottom-Area-Ends-here **/
+
