@@ -190,7 +190,7 @@ h2.address-h2 {
 }
 
 .product-title {
-	border: 2px dotted red;
+	border: 1px dotted red;
 	padding: 30px 0;
 	text-align: center;
 }
@@ -223,11 +223,11 @@ span.red-text {
 }
 
 .product-list {
-	border: 2px solid red;
-	padding: 35px;
-	font-size: 18px;
-	position: relative;
-	z-index: 1;
+    border: 1px dotted red;
+    padding: 35px;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
 }
 
 img.product-img {
@@ -243,7 +243,7 @@ img.product-img {
 }
 
 .sauce-tomate-area {
-	background: #000000 url("../images/sauce-tomate-bg.jpg");
+	background: #000000 url("../images/Base-Tomate-BG.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -294,6 +294,10 @@ img.offer-img {
 	margin-top: 150px;
 }
 
+.product-image-main {
+    text-align: center;
+}
+
 .product-image-top {
 	border-top: 1px solid red;
 	border-bottom: 1px solid red;
@@ -316,11 +320,9 @@ img.product-image-bottom {
 	padding: 25px;
 }
 
-h1.boisson-title-h1 {
+h1.boisson-title-h1,h1.product-carousel-h1 {
     text-align: center;
-    font-size: 100px;
     padding-bottom: 60px;
-    color: #ffffff;
 }
 
 .boisson-area {
@@ -347,16 +349,17 @@ h1.product-carousel-h1 {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 90px;
-    margin-bottom: 60px;
 }
 
 h3.carousel-h3 {
-    margin-top: 30px;
+    margin-top: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 h4.carousel-h4 {
-    font-weight: 400;
+    font-weight: 100;
+    font-size: 16px;
 }
 
 .title-area {
@@ -547,6 +550,10 @@ h4.les-legumes-h4 {
 
 /*** Section-Title-Wrapper ***/
 /*** Section-Title-Wrapper ***/
+.section-title-wrapper {
+    margin-bottom: 80px;
+}
+
 .section-title-content {
     text-align: center;
 }
@@ -554,7 +561,7 @@ h4.les-legumes-h4 {
 h1.section-title-h1 {
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 90px;
+    font-size: 80px;
 }
 /*** Section-Title-Wrapper ***/
 /*** Section-Title-Wrapper ***/
@@ -567,7 +574,7 @@ h1.section-title-h1 {
 }
 
 h4.pricing-h4 {
-    color: red;
+    color: #ffffff;
     margin: 0;
     font-size: 30px;
 }
@@ -585,7 +592,7 @@ span.price-itself {
 }
 
 img.price-icon-img {
-    max-width: 50px;
+    max-width: 90px;
     margin-bottom: 5px;
 }
 /*** Product-pricing-tag-3-col ***/
@@ -625,4 +632,3 @@ img.footer-logo-area:hover {
 }
 /** Footer-Bottom-Area-Ends-here **/
 /** Footer-Bottom-Area-Ends-here **/
-
