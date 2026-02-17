@@ -614,6 +614,59 @@ img.price-icon-img {
 /*** Product-pricing-tag-3-col ***/
 /*** Product-pricing-tag-3-col ***/
 
+/* Salade Content */
+/* Salade Content */
+/*.salade-area {
+	background: #000000 url("../images/salade-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+	color: #ffffff;
+    margin: 0;
+}
+
+.salade-area::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+*/
+span.product-list-price-tag {
+    color: green;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+span.mini-price-tag {
+    font-size: 40px;
+}
+
+span.green-text {
+    color: #40d740;
+    font-size: 19px;
+}
+
+.salade-product-list {
+    border-width: 1px;
+	padding: 35px;
+	font-size: 18px;
+	position: relative;
+	z-index: 1;
+	border-style: dotted;
+	border-image-source: linear-gradient(to bottom, green, white);
+	border-image-slice: 1;
+}
+/* Salade Content */
+/* Salade Content */
+
 /** Footer-Bottom-Area-Starts-here **/
 /** Footer-Bottom-Area-Starts-here **/
 .footer-bottom-area {
