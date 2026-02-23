@@ -35,7 +35,12 @@
         gap: 15px;                      /* space between items */
         padding: 20px;
     }
-    
+    .gratins-area {
+        margin-top: 200px;
+    }
+    .panini-area {
+        margin-top: 200px;
+    }
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -48,15 +53,18 @@
     .gratins-area {
         margin-top: 200px;
     }
+    .panini-area {
+        margin-top: 200px;
+    }
     .speciales-area {
         margin-top: 200px;
+    }
+    .croque-area {
+        margin-top: 270px;
     }
     .uber-area {
         text-align: center;
         padding: 50px 15px;
-    }
-    .panini-area {
-        margin-top: 200px;
     }
     .composez-pizza-image-area {
         margin: 100px 0;
@@ -64,9 +72,6 @@
     .qr-area img {
         padding: 10px;
         max-width: 150px;
-    }
-    .croque-area {
-        margin-top: 270px;
     }
     img.cards-area-product-image {
         max-width: 80%;
