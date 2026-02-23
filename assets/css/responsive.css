@@ -27,6 +27,12 @@
     img.visa-card-img {
         display: grid;
     }
+    .visa-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+        grid-template-rows: repeat(2, auto);   /* 2 rows, adjust height as needed */
+        gap: 20px; /* space between items */
+    }
     
 }
 /* Wide Mobile Layout: 480px. */
@@ -66,5 +72,11 @@
 
     img.visa-card-img {
         display: grid;
+    }
+    .visa-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+        grid-template-rows: repeat(2, auto);   /* 2 rows, adjust height as needed */
+        gap: 20px; /* space between items */
     }
 }
