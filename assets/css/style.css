@@ -222,6 +222,23 @@ span.red-text {
 	font-weight: bold;
 }
 
+span.white-text {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.box-text {
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+span.mini-price {
+    font-size: 16px;
+    font-weight: 100;
+}
+
 .product-list {
 	border-width: 1px;
 	padding: 35px;
@@ -296,6 +313,7 @@ img.offer-img {
 
 .product-image-main {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .product-image-top {
@@ -320,11 +338,6 @@ img.product-image-bottom {
 	padding: 25px;
 }
 
-h1.boisson-title-h1,h1.product-carousel-h1 {
-    text-align: center;
-    padding-bottom: 60px;
-}
-
 .boisson-area {
 	background-image: url("../images/burger-section-bg.jpg");
 	background-position: center;
@@ -343,6 +356,15 @@ h1.boisson-title-h1,h1.product-carousel-h1 {
 	z-index: -1;
 	height: 100%;
 	width: 100%;
+}
+
+.boisson-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.product-carousel-headline {
+    margin-bottom: 80px;
 }
 
 h1.product-carousel-h1 {
@@ -389,7 +411,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(
 }
 
 .single-carousel-content {
-    border: 1px solid red;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 50px;
     margin-bottom: 100px;
     background-color: #ffffff;
@@ -640,7 +662,7 @@ img.price-icon-img {
 */
 span.product-list-price-tag {
     color: green;
-    background-color: #ffffff;
+    background-color: #c1ffc5;
     padding: 20px;
     border-radius: 35px;
 }
@@ -663,6 +685,10 @@ span.green-text {
 	border-style: dotted;
 	border-image-source: linear-gradient(to bottom, green, white);
 	border-image-slice: 1;
+}
+
+.salade-img {
+    margin: 50px 0;
 }
 /* Salade Content */
 /* Salade Content */
