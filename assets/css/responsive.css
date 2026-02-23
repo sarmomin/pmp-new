@@ -25,13 +25,15 @@
     }
 
     img.visa-card-img {
-        display: grid;
+        max-width: 80%;
+        align-content: center;
     }
     .visa-cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-        grid-template-rows: repeat(2, auto);   /* 2 rows, adjust height as needed */
-        gap: 20px; /* space between items */
+        display: flex;                  /* enables Flexbox */
+        justify-content: space-between; /* horizontal alignment */
+        align-items: center;            /* vertical alignment */
+        gap: 15px;                      /* space between items */
+        padding: 20px;
     }
     
 }
@@ -71,14 +73,14 @@
     }
 
     img.visa-card-img {
-        display: grid;
+        max-width: 80%;
+        align-content: center;
     }
     .visa-cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-        grid-template-rows: repeat(2, auto);   /* 2 rows, adjust height as needed */
-        gap: 20px; /* space between items */
+        display: flex;                  /* enables Flexbox */
+        justify-content: space-between; /* horizontal alignment */
+        align-items: center;            /* vertical alignment */
+        gap: 15px;                      /* space between items */
+        padding: 20px;
     }
 }
-
-
