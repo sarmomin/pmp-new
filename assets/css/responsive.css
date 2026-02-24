@@ -63,6 +63,10 @@
     .qr-area {
         padding: 0;
     }
+    span.product-list-price-tag {
+        display: block;
+        margin: 25px 80px 0 80px;
+    }
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -130,5 +134,9 @@
     }
     .qr-area {
         padding: 0;
+    }
+    span.product-list-price-tag {
+        display: block;
+        margin: 25px 80px 0 80px;
     }
 }
