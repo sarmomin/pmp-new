@@ -95,7 +95,7 @@ img.hero-halal-img {
     width: 265px;
     color: #ffffff;
     line-height: 1;
-    margin-top: 45px;
+    margin: 45px 0;
 }
 
 p.ouvert-p {
@@ -108,7 +108,7 @@ p.ouvert-p {
 }
 
 img.cards-area-product-image {
-    margin: 40px 10px;
+    padding: 40px 10px;
 }
 
 img.visa-card-img {
@@ -143,6 +143,10 @@ img.visa-card-img {
 
 .address-area {
 	text-align: center;
+}
+
+.margin-top {
+    margin-top: 50px;
 }
 
 .uber-area {
