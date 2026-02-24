@@ -21,25 +21,38 @@
     }
     
     img.cards-area-product-image {
-        max-width: 80%;
+        max-width: 90%;
     }
 
     img.visa-card-img {
-        max-width: 80%;
+        max-width: 40%;
         align-content: center;
+        margin-bottom: 25px;
     }
     .visa-cards {
-        display: flex;                  /* enables Flexbox */
-        justify-content: space-between; /* horizontal alignment */
-        align-items: center;            /* vertical alignment */
-        gap: 15px;                      /* space between items */
-        padding: 20px;
+        display: block;
     }
     .gratins-area {
-        margin-top: 200px;
+        margin-top: 120px;
     }
     .panini-area {
-        margin-top: 200px;
+        margin-top: 120px;
+    }
+    .ouvert-area {
+        background: none;
+        width: auto;
+    }
+    h2.ouvert-h2 {
+        font-size: 50px;
+    }
+    h4.ouvert-h4 {
+        font-size: 35px;
+    }
+    p.ouvert-p {
+        font-size: 18px;
+    }
+    .single-carousel-content {
+        margin: 20px 20px 65px 20px;
     }
 }
 /* Wide Mobile Layout: 480px. */
@@ -74,18 +87,30 @@
         max-width: 150px;
     }
     img.cards-area-product-image {
-        max-width: 80%;
+        max-width: 70%;
     }
-
     img.visa-card-img {
-        max-width: 80%;
+        max-width: 70%;
         align-content: center;
+        margin-bottom: 25px;
     }
     .visa-cards {
-        display: flex;                  /* enables Flexbox */
-        justify-content: space-between; /* horizontal alignment */
-        align-items: center;            /* vertical alignment */
-        gap: 15px;                      /* space between items */
-        padding: 20px;
+        display: block;
+    }
+    .ouvert-area {
+        background: none;
+        width: auto;
+    }
+    h2.ouvert-h2 {
+        font-size: 50px;
+    }
+    h4.ouvert-h4 {
+        font-size: 35px;
+    }
+    p.ouvert-p {
+        font-size: 18px;
+    }
+    .single-carousel-content {
+        margin: 20px 20px 65px 20px;
     }
 }
