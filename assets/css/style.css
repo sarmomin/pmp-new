@@ -427,12 +427,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(
 
 span.price-down {
     display: block;
+    font-size: 27px;
 }
 
 span.left-price-tag {
     background-color: #000000;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     color: #ffffff;
     border-bottom-left-radius: 50px;
@@ -444,7 +445,7 @@ span.left-price-tag {
 span.right-price-tag {
     background-color: #000000;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     color: #ffffff;
     border-bottom-right-radius: 50px;
@@ -631,6 +632,7 @@ span.price-itself {
 	color: #ffffff;
 	padding: 15px 25px;
 	border-radius: 35px;
+    font-size: 35px
 }
 
 img.price-icon-img {
